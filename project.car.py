@@ -12,10 +12,3 @@ vehicle = st.selectbox("Select vehicle type", ["Petrol", "Diesel", "Electric", "
 if st.button("Calculate Emissions"):
     st.write(f"Calculating emissions from {start} to {end} using a {vehicle} vehicle...")
 
-print("hello")
-
-print("world")
-
-print
-
-print("test")
