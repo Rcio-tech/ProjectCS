@@ -13,3 +13,5 @@ if st.button("Calculate Emissions"):
     st.write(f"Calculating emissions from {start} to {end} using a {vehicle} vehicle...")
 
 print("hello")
+
+print("world")
