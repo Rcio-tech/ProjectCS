@@ -1,6 +1,4 @@
 import streamlit as st
-st.write("Hooray,we connected everything")
-import streamlit as st
 
 # ---- PAGE SETUP ----
 st.set_page_config(page_title="Car Journey CO₂ Emission Calculator", page_icon="🚗", layout="centered")
@@ -42,3 +40,4 @@ if st.button("Calculate Emissions"):
 # ---- FOOTER ----
 st.markdown("""---""")
 st.caption("Data sources: OpenRouteService, Carbon Interface API, Kaggle CO₂ dataset.")
+
