@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("debajyotipodder/co2-emission-by-vehicles")
+
+print("Path to dataset files:", path)
