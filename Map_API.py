@@ -31,4 +31,5 @@ def get_route_info(start_coords, end_coords):
         "duration_min": segment['duration'] / 60,
         "geometry": geometry
     }
+##yeh
 
